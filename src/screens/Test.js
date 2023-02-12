@@ -23,7 +23,7 @@ import Coperatedetails from "./src/screens/Coperatedetails";
 import ProfileScreen from "./src/screens/ProfileScreen";
 import Testfirebase from "./src/Testfirebase";
 
-import ScreenInfomation from "./src/screens/ScreenInfomation";
+
 
 
 
@@ -85,31 +85,25 @@ function App() {
         <Stack.Screen
           name="Testfirebase"
           component={Testfirebase}
-          options={{ headerShown: false}}
+          options={{ headerShown: true }}
         />
 
         <Stack.Screen
           name="CoopScreen"
           component={CoopScreen}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
 
         <Stack.Screen
           name="Coperatedetails"
           component={Coperatedetails}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
 
         <Stack.Screen
           name="ProfileScreen"
           component={ProfileScreen}
-          options={{ headerShown: false }}
-        />
-
-        <Stack.Screen
-          name="ScreenInfomation"
-          component={ScreenInfomation}
-          options={{ headerShown: false }}
+          options={{ headerShown: true }}
         />
 
       </Stack.Navigator>
@@ -128,47 +122,42 @@ function App() {
       <Stack.Screen
         name="Matchingscreen"
         component={MatchingScrren}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
 
       <Stack.Screen
         name="CourseScreen"
         component={CourseScreen}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
       <Stack.Screen
         name="DetailCourse"
         component={DetailCourse}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
 
       <Stack.Screen
         name="Testfirebase"
         component={Testfirebase}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
       <Stack.Screen
         name="CoopScreen"
         component={CoopScreen}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
 
       <Stack.Screen
         name="Coperatedetails"
         component={Coperatedetails}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
+       <Stack.Screen
+          name="ProfileScreen"
+          component={ProfileScreen}
+          options={{ headerShown: true }}
+        />
 
-      <Stack.Screen
-        name="ProfileScreen"
-        component={ProfileScreen}
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="ScreenInfomation"
-        component={ScreenInfomation}
-        options={{ headerShown: false }}
-      />
 
     </Stack.Navigator>
 
